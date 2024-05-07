@@ -35,6 +35,7 @@ foreach (var line in invisiblePath)
             Console.Write(visiblePath[i]);
         }
     }
+    Console.Write("      currline : " + currLine);
     while (true)
     {
         ConsoleKeyInfo keyInput = Console.ReadKey();
@@ -57,6 +58,7 @@ foreach (var line in invisiblePath)
                     Console.Write(visiblePath[i]);
                 }
             }
+            Console.Write("      currline : " + currLine);
         }
         else if (keyInput.Key == ConsoleKey.LeftArrow)
         {
@@ -77,6 +79,7 @@ foreach (var line in invisiblePath)
                     Console.Write(visiblePath[i]);
                 }
             }
+            Console.Write("      currline : " + currLine);
         }
         else if (keyInput.Key == ConsoleKey.Enter)
         {
